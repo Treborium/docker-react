@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Docker
+# This needs to be ignored in order for AWS to choose the Dockerfile instead of the docker-compose.yml
+docker-compose.yml
